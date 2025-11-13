@@ -17,6 +17,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Report.Domain", "Report.Domain\Report.Domain.csproj", "{268726DA-C49A-4066-AF4E-2941FC419681}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthReport.Api", "HealthReport.Api\HealthReport.Api.csproj", "{733DB54E-4705-4659-AC12-FA930CD6A5CF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{268726DA-C49A-4066-AF4E-2941FC419681} = {268726DA-C49A-4066-AF4E-2941FC419681}
+		{8081E617-C3FB-4D3E-807B-F3AB25F3D5BF} = {8081E617-C3FB-4D3E-807B-F3AB25F3D5BF}
+		{85BAC501-E11A-4E8C-8626-EEB4DD3D95E6} = {85BAC501-E11A-4E8C-8626-EEB4DD3D95E6}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
